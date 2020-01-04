@@ -121,7 +121,7 @@ async function writeHTML() {
         
         let role = $("<h2>").text(team[i].getRole()).addClass("card-header");
         $(cardDiv).append(role);
-       
+
 
         let name = $("<h4>").text(team[i].getName()).addClass("card-title");
         $(card).append(name);
@@ -150,6 +150,10 @@ async function writeHTML() {
             $(card).append(github);
         }
 
+        let icon = $("<i>").addClass("fas " + team[i].getIcon());
+        $(role).append(" " + icon);
+
+        
         $(cardDiv).append(card);
         $("#team-members").append(cardDiv);
     }
