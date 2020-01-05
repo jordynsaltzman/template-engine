@@ -15,6 +15,11 @@ node app.js
 ```
 Follow the prompts and generate your software engineering team profile. 
 
+## Credits
+* Keisha Shepherd
+* Donald Hesler
+* Stetson Lewis
+
 
 ## License 
 
